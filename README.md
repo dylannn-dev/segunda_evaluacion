@@ -14,9 +14,6 @@ segunda_evaluacion_integral/
 ├── README.md
 ├── informe/
 │   └── informe_segunda_evaluacion.pdf
-├── arquitectura/
-│   ├── diagrama_flujo.pdf / .svg
-│   └── decisiones_tecnicas.md
 ├── docker/
 │   ├── Dockerfile
 │   ├── docker-compose.yml
@@ -154,10 +151,7 @@ pkill -f worker.py
 
 ## Declaración de uso de herramientas de apoyo
 
-Se utilizó Claude (Anthropic) como asistente de desarrollo para estructurar
-el proyecto, redactar código base y documentación. Todo el código fue
+Se utilizó Claude (Anthropic) como asistente en depuracion y dudad sobre
+el proyecto y documentación. Todo el código fue
 ejecutado y validado en un entorno real con Redis (evidencias en
-`outputs/` y `outputs/evidencias/`), no se delegó el razonamiento de diseño
-(elección de escenario, decisiones de arquitectura, justificación técnica)
-sin revisión y adaptación. Ver detalle en el informe, sección "Referencias
-y anexos".
+`outputs/` y `outputs/evidencias/`), 
