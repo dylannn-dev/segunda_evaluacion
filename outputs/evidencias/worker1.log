@@ -1,0 +1,5 @@
+[worker-vm-757] Worker iniciado. Esperando tareas en la cola...
+[worker-vm-757] Procesando tarea bb8158a4
+[worker-vm-757] Tarea bb8158a4 finalizada -> {'score_deuda': 81.25, 'score_monto': 90.62, 'ratio_deuda_ingreso': 0.125, 'score_antiguedad': 60.0, 'score_historial': 100, 'ajuste_buro_externo': -2.35, 'score_final': 82.15, 'decision': 'aprobado'}
+[worker-vm-757] Procesando tarea ade876f6
+[worker-vm-757] Tarea ade876f6 finalizada -> None

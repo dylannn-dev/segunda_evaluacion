@@ -1,0 +1,5 @@
+task_id,nombre_solicitante,estado_final,decision,score_final,ultima_actualizacion
+bb8158a4,Ana Soto,completado,aprobado,82.15,2026-07-03T23:16:57.062865+00:00
+218b978a,Luis Vega,completado,rechazado,28.48,2026-07-03T23:16:56.762251+00:00
+ba9ab2ce,Menor Edad,completado,rechazado,0,2026-07-03T23:16:57.844471+00:00
+ade876f6,Dato Invalido,fallido,,,2026-07-03T23:16:57.486328+00:00

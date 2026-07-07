@@ -1,0 +1,18 @@
+{
+  "bb8158a4": {
+    "n_eventos": 9,
+    "merkle_root": "b501029cefd9f4811bce570c78a7dc71972fecfcaf63b38375066485e27db045"
+  },
+  "218b978a": {
+    "n_eventos": 9,
+    "merkle_root": "80ed65d3064a1ef6448955aabd54db66483e7164aafc8825ff42408c7d8fc88b"
+  },
+  "ba9ab2ce": {
+    "n_eventos": 5,
+    "merkle_root": "21636e5dc6963653055c65b0de3a56afdffb05b617bc06d36f394b65be2a9eb6"
+  },
+  "ade876f6": {
+    "n_eventos": 3,
+    "merkle_root": "8dd32c53d758798041f1f27073f32f02dc9cd0085129c8d59fe7ea38b93749fc"
+  }
+}

@@ -1,0 +1,6 @@
+{"nombre_solicitante": "Ana Soto", "monto_solicitado": 1500000, "ingreso_mensual": 800000, "deuda_mensual_actual": 100000, "antiguedad_laboral_meses": 36, "edad": 29, "historial_crediticio": "bueno", "region": "Metropolitana"}
+{"nombre_solicitante": "Luis Vega", "monto_solicitado": 5000000, "ingreso_mensual": 600000, "deuda_mensual_actual": 300000, "antiguedad_laboral_meses": 4, "edad": 22, "historial_crediticio": "malo", "region": "Valparaiso"}
+{"nombre_solicitante": "Carla Nunez", "monto_solicitado": 800000, "ingreso_mensual": 1200000, "deuda_mensual_actual": 50000, "antiguedad_laboral_meses": 72, "edad": 41, "historial_crediticio": "bueno", "region": "Biobio"}
+{"nombre_solicitante": "Menor Edad", "monto_solicitado": 100000, "ingreso_mensual": 500000, "deuda_mensual_actual": 0, "antiguedad_laboral_meses": 1, "edad": 16, "historial_crediticio": "bueno", "region": "Biobio"}
+{"nombre_solicitante": "Dato Invalido", "monto_solicitado": "no-es-numero", "ingreso_mensual": 500000, "deuda_mensual_actual": 0, "antiguedad_laboral_meses": 12, "edad": 30, "historial_crediticio": "bueno", "region": "Maule"}
+{"nombre_solicitante": "Pedro Rios", "monto_solicitado": 2500000, "ingreso_mensual": 950000, "deuda_mensual_actual": 400000, "antiguedad_laboral_meses": 18, "edad": 35, "historial_crediticio": "regular", "region": "Araucania"}

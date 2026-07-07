@@ -1,0 +1,82 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7.2-alpine
+    container_name: credirapido_redis
+    ports:
+      - "6379:6379"
+    networks:
+      - credirapido_net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    volumes:
+      - redis_data:/data
+
+  worker1:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: credirapido_worker1
+    command: python3 app_async/worker.py
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - OUTPUT_DIR=/app/outputs
+      - TASK_TIMEOUT_SECONDS=8
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - credirapido_net
+    volumes:
+      - ../outputs:/app/outputs
+
+  worker2:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: credirapido_worker2
+    command: python3 app_async/worker.py
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - OUTPUT_DIR=/app/outputs
+      - TASK_TIMEOUT_SECONDS=8
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - credirapido_net
+    volumes:
+      - ../outputs:/app/outputs
+
+  interfaz:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: credirapido_interfaz
+    command: streamlit run app_async/app.py --server.address=0.0.0.0 --server.port=8501
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - OUTPUT_DIR=/app/outputs
+    ports:
+      - "8501:8501"
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - credirapido_net
+    volumes:
+      - ../outputs:/app/outputs
+
+networks:
+  credirapido_net:
+    driver: bridge
+
+volumes:
+  redis_data:

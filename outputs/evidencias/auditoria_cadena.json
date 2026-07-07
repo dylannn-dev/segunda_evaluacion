@@ -1,0 +1,510 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-01-01T00:00:00+00:00",
+    "data": {
+      "tipo": "genesis",
+      "mensaje": "Bloque genesis - CrediRapido audit chain"
+    },
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 0,
+    "hash": "a8f060c141e7fe45de2d95ed25320a4141505d6766337a40c36ad078ca608938"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "bb8158a4",
+      "evento": "tarea_iniciada",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:53.756889+00:00",
+      "detalle": {
+        "worker": "worker-vm-757"
+      }
+    },
+    "previous_hash": "a8f060c141e7fe45de2d95ed25320a4141505d6766337a40c36ad078ca608938",
+    "nonce": 817,
+    "hash": "0067866b04189b3925eb087e6d87f710a6a261ce4e41272a0fbbbd9287ca7f6f"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "bb8158a4",
+      "evento": "tarea_creada",
+      "worker_id": "interfaz",
+      "timestamp": "2026-07-03T23:16:53.758070+00:00",
+      "detalle": {
+        "estado": "recibido",
+        "origen": "interfaz"
+      }
+    },
+    "previous_hash": "0067866b04189b3925eb087e6d87f710a6a261ce4e41272a0fbbbd9287ca7f6f",
+    "nonce": 4,
+    "hash": "00a66c79ee61b5912867e663979f35d95f673a0eb37cf97e4777fab524051c64"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "218b978a",
+      "evento": "tarea_creada",
+      "worker_id": "interfaz",
+      "timestamp": "2026-07-03T23:16:53.761318+00:00",
+      "detalle": {
+        "estado": "recibido",
+        "origen": "interfaz"
+      }
+    },
+    "previous_hash": "00a66c79ee61b5912867e663979f35d95f673a0eb37cf97e4777fab524051c64",
+    "nonce": 76,
+    "hash": "00d03c7df4e87052964e415cb05543812db823842162ddcd51d0edcea81cf8ed"
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "218b978a",
+      "evento": "tarea_iniciada",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:53.761584+00:00",
+      "detalle": {
+        "worker": "worker-vm-758"
+      }
+    },
+    "previous_hash": "00d03c7df4e87052964e415cb05543812db823842162ddcd51d0edcea81cf8ed",
+    "nonce": 273,
+    "hash": "00e5ada1f10e7ecae817fa1ee174b58d4466936adc7c2d46482b2b7637033f77"
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "ba9ab2ce",
+      "evento": "tarea_creada",
+      "worker_id": "interfaz",
+      "timestamp": "2026-07-03T23:16:53.766610+00:00",
+      "detalle": {
+        "estado": "recibido",
+        "origen": "interfaz"
+      }
+    },
+    "previous_hash": "00e5ada1f10e7ecae817fa1ee174b58d4466936adc7c2d46482b2b7637033f77",
+    "nonce": 293,
+    "hash": "00799da52c31b1f2ea6448a13811b92b1874d9918b8616b38a7d80531917591b"
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "ade876f6",
+      "evento": "tarea_creada",
+      "worker_id": "interfaz",
+      "timestamp": "2026-07-03T23:16:53.769059+00:00",
+      "detalle": {
+        "estado": "recibido",
+        "origen": "interfaz"
+      }
+    },
+    "previous_hash": "00799da52c31b1f2ea6448a13811b92b1874d9918b8616b38a7d80531917591b",
+    "nonce": 99,
+    "hash": "00801929fb25387f080953129f1f139925c8f8d917119dc2902ecd96d8e2f595"
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "bb8158a4",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:54.140500+00:00",
+      "detalle": {
+        "paso": "validacion_formato",
+        "avance_pct": 10
+      }
+    },
+    "previous_hash": "00801929fb25387f080953129f1f139925c8f8d917119dc2902ecd96d8e2f595",
+    "nonce": 313,
+    "hash": "00ae05aba829d7ab5a85680780482496058c741a8bfe54e05a444bdd9bc8eb8b"
+  },
+  {
+    "index": 8,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "218b978a",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:54.260619+00:00",
+      "detalle": {
+        "paso": "validacion_formato",
+        "avance_pct": 10
+      }
+    },
+    "previous_hash": "00ae05aba829d7ab5a85680780482496058c741a8bfe54e05a444bdd9bc8eb8b",
+    "nonce": 458,
+    "hash": "0098f0cb9191bbce767b9095be5248047318799cce6ec427b2f5ae37895d821f"
+  },
+  {
+    "index": 9,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "bb8158a4",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:54.625013+00:00",
+      "detalle": {
+        "paso": "reglas_duras",
+        "avance_pct": 25,
+        "resultado": {
+          "aprueba_reglas_duras": true,
+          "motivos": []
+        }
+      }
+    },
+    "previous_hash": "0098f0cb9191bbce767b9095be5248047318799cce6ec427b2f5ae37895d821f",
+    "nonce": 0,
+    "hash": "00da7cf32a2a6df557fc5a0f5f87cbfe2e46359cc5b03d885b598b3dc7d33e76"
+  },
+  {
+    "index": 10,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "218b978a",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:54.670238+00:00",
+      "detalle": {
+        "paso": "reglas_duras",
+        "avance_pct": 25,
+        "resultado": {
+          "aprueba_reglas_duras": true,
+          "motivos": []
+        }
+      }
+    },
+    "previous_hash": "00da7cf32a2a6df557fc5a0f5f87cbfe2e46359cc5b03d885b598b3dc7d33e76",
+    "nonce": 99,
+    "hash": "00d3f43b254711335e106bf8ba66a34e1f795dd2b983eaf98a3d3732a7f3ded4"
+  },
+  {
+    "index": 11,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "bb8158a4",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:55.101544+00:00",
+      "detalle": {
+        "paso": "score_financiero",
+        "avance_pct": 45,
+        "resultado": {
+          "score_deuda": 81.25,
+          "score_monto": 90.62,
+          "ratio_deuda_ingreso": 0.125
+        }
+      }
+    },
+    "previous_hash": "00d3f43b254711335e106bf8ba66a34e1f795dd2b983eaf98a3d3732a7f3ded4",
+    "nonce": 239,
+    "hash": "00d706d568139b8c3e0b184c123c7021d833441670e13c1de95a75193308ffb0"
+  },
+  {
+    "index": 12,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "218b978a",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:55.137317+00:00",
+      "detalle": {
+        "paso": "score_financiero",
+        "avance_pct": 45,
+        "resultado": {
+          "score_deuda": 25.0,
+          "score_monto": 58.33,
+          "ratio_deuda_ingreso": 0.5
+        }
+      }
+    },
+    "previous_hash": "00d706d568139b8c3e0b184c123c7021d833441670e13c1de95a75193308ffb0",
+    "nonce": 188,
+    "hash": "004f8671bb623d7ad088807f609be80148096288814eeffcedcba4ee83908f11"
+  },
+  {
+    "index": 13,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "218b978a",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:55.746538+00:00",
+      "detalle": {
+        "paso": "score_historial",
+        "avance_pct": 65,
+        "resultado": {
+          "score_antiguedad": 6.67,
+          "score_historial": 20
+        }
+      }
+    },
+    "previous_hash": "004f8671bb623d7ad088807f609be80148096288814eeffcedcba4ee83908f11",
+    "nonce": 301,
+    "hash": "00b440088baf874877eee220328924dcfd5e87d07a667daa32c17aae1a84df8f"
+  },
+  {
+    "index": 14,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "bb8158a4",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:56.010076+00:00",
+      "detalle": {
+        "paso": "score_historial",
+        "avance_pct": 65,
+        "resultado": {
+          "score_antiguedad": 60.0,
+          "score_historial": 100
+        }
+      }
+    },
+    "previous_hash": "00b440088baf874877eee220328924dcfd5e87d07a667daa32c17aae1a84df8f",
+    "nonce": 375,
+    "hash": "009a82a346f3c233670a19c3a712a706eacd2269497ac575db29ed78d075db7b"
+  },
+  {
+    "index": 15,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "218b978a",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:56.761083+00:00",
+      "detalle": {
+        "paso": "buro_externo",
+        "avance_pct": 85,
+        "resultado": {
+          "ajuste_buro_externo": 1.98
+        }
+      }
+    },
+    "previous_hash": "009a82a346f3c233670a19c3a712a706eacd2269497ac575db29ed78d075db7b",
+    "nonce": 121,
+    "hash": "00869ded73e2438fba65bd1faaef2b4bcea314f3995f2122ea6d3fd9431949a4"
+  },
+  {
+    "index": 16,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "218b978a",
+      "evento": "tarea_completada",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:56.763590+00:00",
+      "detalle": {
+        "resultado": {
+          "score_deuda": 25.0,
+          "score_monto": 58.33,
+          "ratio_deuda_ingreso": 0.5,
+          "score_antiguedad": 6.67,
+          "score_historial": 20,
+          "ajuste_buro_externo": 1.98,
+          "score_final": 28.48,
+          "decision": "rechazado"
+        }
+      }
+    },
+    "previous_hash": "00869ded73e2438fba65bd1faaef2b4bcea314f3995f2122ea6d3fd9431949a4",
+    "nonce": 92,
+    "hash": "00cc4cd5f64fd67ea8b57b910d1ace5f53a6c146668d61a35fc8067be0cf12e2"
+  },
+  {
+    "index": 17,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "218b978a",
+      "evento": "verificacion",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:56.763665+00:00",
+      "detalle": {
+        "chequeo": "estado_final_consistente",
+        "ok": true
+      }
+    },
+    "previous_hash": "00cc4cd5f64fd67ea8b57b910d1ace5f53a6c146668d61a35fc8067be0cf12e2",
+    "nonce": 478,
+    "hash": "006330299503a6154acab399d53376cad07dfbce5ce286f6644f3a37374893be"
+  },
+  {
+    "index": 18,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "ba9ab2ce",
+      "evento": "tarea_iniciada",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:56.765365+00:00",
+      "detalle": {
+        "worker": "worker-vm-758"
+      }
+    },
+    "previous_hash": "006330299503a6154acab399d53376cad07dfbce5ce286f6644f3a37374893be",
+    "nonce": 86,
+    "hash": "00eb5166c672498b31841b70ed1f0cdc4889d173f27906b9cf7f632ea223abb4"
+  },
+  {
+    "index": 19,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "bb8158a4",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:57.061665+00:00",
+      "detalle": {
+        "paso": "buro_externo",
+        "avance_pct": 85,
+        "resultado": {
+          "ajuste_buro_externo": -2.35
+        }
+      }
+    },
+    "previous_hash": "00eb5166c672498b31841b70ed1f0cdc4889d173f27906b9cf7f632ea223abb4",
+    "nonce": 230,
+    "hash": "0065be440569c93da1611aa6ee72d8b90371ff8c86e84c36ed0733a84c63e47a"
+  },
+  {
+    "index": 20,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "bb8158a4",
+      "evento": "tarea_completada",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:57.064309+00:00",
+      "detalle": {
+        "resultado": {
+          "score_deuda": 81.25,
+          "score_monto": 90.62,
+          "ratio_deuda_ingreso": 0.125,
+          "score_antiguedad": 60.0,
+          "score_historial": 100,
+          "ajuste_buro_externo": -2.35,
+          "score_final": 82.15,
+          "decision": "aprobado"
+        }
+      }
+    },
+    "previous_hash": "0065be440569c93da1611aa6ee72d8b90371ff8c86e84c36ed0733a84c63e47a",
+    "nonce": 47,
+    "hash": "00e9fe4a0597e01e44b0d0016de3f73a67c01513729e2eea49761cc219c12796"
+  },
+  {
+    "index": 21,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "bb8158a4",
+      "evento": "verificacion",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:57.064392+00:00",
+      "detalle": {
+        "chequeo": "estado_final_consistente",
+        "ok": true
+      }
+    },
+    "previous_hash": "00e9fe4a0597e01e44b0d0016de3f73a67c01513729e2eea49761cc219c12796",
+    "nonce": 10,
+    "hash": "00f34dc5b99e360cdb38b8c606c15f2324398efc0abbfa487e31111d9a2a3f8d"
+  },
+  {
+    "index": 22,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "ade876f6",
+      "evento": "tarea_iniciada",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:57.065994+00:00",
+      "detalle": {
+        "worker": "worker-vm-757"
+      }
+    },
+    "previous_hash": "00f34dc5b99e360cdb38b8c606c15f2324398efc0abbfa487e31111d9a2a3f8d",
+    "nonce": 124,
+    "hash": "00f8bdb04d29c243b6673da0f80e7cd4802c431884974fd052879c15c776ee96"
+  },
+  {
+    "index": 23,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "ba9ab2ce",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:57.434023+00:00",
+      "detalle": {
+        "paso": "validacion_formato",
+        "avance_pct": 10
+      }
+    },
+    "previous_hash": "00f8bdb04d29c243b6673da0f80e7cd4802c431884974fd052879c15c776ee96",
+    "nonce": 390,
+    "hash": "00ec8dfdcf7b3cbd659a2924d1f607f903dc6d4dcd7f53699c888ff9f3a76d26"
+  },
+  {
+    "index": 24,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "ade876f6",
+      "evento": "error",
+      "worker_id": "worker-vm-757",
+      "timestamp": "2026-07-03T23:16:57.487699+00:00",
+      "detalle": {
+        "tipo": "SolicitudInvalida",
+        "detalle": "Campo 'monto_solicitado' debe ser numerico"
+      }
+    },
+    "previous_hash": "00ec8dfdcf7b3cbd659a2924d1f607f903dc6d4dcd7f53699c888ff9f3a76d26",
+    "nonce": 62,
+    "hash": "00863e7a7e9b945737d0c419149c6cd96f9e51cb08161605ccf2eb20546e85c2"
+  },
+  {
+    "index": 25,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "ba9ab2ce",
+      "evento": "avance_parcial",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:57.843353+00:00",
+      "detalle": {
+        "paso": "reglas_duras",
+        "avance_pct": 25,
+        "resultado": {
+          "aprueba_reglas_duras": false,
+          "motivos": [
+            "edad fuera de rango permitido (18-75)"
+          ]
+        }
+      }
+    },
+    "previous_hash": "00863e7a7e9b945737d0c419149c6cd96f9e51cb08161605ccf2eb20546e85c2",
+    "nonce": 10,
+    "hash": "00efc1c7c64ffb17dc752b9c74cbb7b40a3df3603bb995d7581ff19cfc078004"
+  },
+  {
+    "index": 26,
+    "timestamp": "2026-07-03T23:18:07+00:00",
+    "data": {
+      "task_id": "ba9ab2ce",
+      "evento": "tarea_completada",
+      "worker_id": "worker-vm-758",
+      "timestamp": "2026-07-03T23:16:57.845906+00:00",
+      "detalle": {
+        "resultado": {
+          "decision": "rechazado",
+          "motivo": [
+            "edad fuera de rango permitido (18-75)"
+          ],
+          "score_final": 0
+        }
+      }
+    },
+    "previous_hash": "00efc1c7c64ffb17dc752b9c74cbb7b40a3df3603bb995d7581ff19cfc078004",
+    "nonce": 241,
+    "hash": "00ab49016ab67ddf7e75109469bedb8370ff39642c962c4ae630551776d8aefc"
+  }
+]

@@ -1,0 +1,5 @@
+[worker-vm-758] Worker iniciado. Esperando tareas en la cola...
+[worker-vm-758] Procesando tarea 218b978a
+[worker-vm-758] Tarea 218b978a finalizada -> {'score_deuda': 25.0, 'score_monto': 58.33, 'ratio_deuda_ingreso': 0.5, 'score_antiguedad': 6.67, 'score_historial': 20, 'ajuste_buro_externo': 1.98, 'score_final': 28.48, 'decision': 'rechazado'}
+[worker-vm-758] Procesando tarea ba9ab2ce
+[worker-vm-758] Tarea ba9ab2ce finalizada -> {'decision': 'rechazado', 'motivo': ['edad fuera de rango permitido (18-75)'], 'score_final': 0}
